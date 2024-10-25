@@ -1,0 +1,260 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.main{
+    width: 1440px;
+    margin: 0 auto;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+h1, h2, blockquote, p{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: normal;
+}
+h1{
+    font-size: 190px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+}
+h2{
+    font-size: 64px;
+    font-weight: bold;
+}
+blockquote{
+    font-style: italic;
+    font-size: 48px;
+    margin: 100px 0px 100px 0px;
+}
+p{
+    font-size: 24px;
+}
+img{
+    margin-left: 20px;
+}
+hr {
+    border: 2px solid black;
+    margin-left: 20px;
+    width: 1440px;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 1440px;
+}
+#description{
+    display: flex;
+    margin: 30px 0px 0px 20px;
+}
+.firstpic{
+    width: 700px;
+    height: 750px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.big{
+    display: flex;
+    margin-top: -100px;
+    margin: unset;
+
+}
+.poteryashka{
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    margin-top: -1500px;
+    margin-left: 50px;
+}
+#Glyph{
+    display: flex;
+    margin-top: 1500px;
+}
+#Glyph h2{
+    margin-left: 50px;
+}
+#Glyph p{
+   font-size: 130px;
+   line-height: auto;
+   letter-spacing: 5px;
+   margin-top: 30px;
+   margin-left: 50px;
+}
+.news{
+    width: 1440px;
+    margin: 80px 0px 80px 20px;
+}
+.topleft{
+    display: flex;
+    margin-top: -700px;
+    margin-left: 400px;
+}
+.topright{
+    display: flex;
+    margin-top: -100px;
+    margin-left: 1200px;
+}
+.botttomleft{
+    display: flex;
+    margin-top: 330px;
+    margin-left: 450px;
+}
+.bottomright{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 1200px;
+}
+.IP{
+   font-size: 1500px;
+   font-weight: 700;
+   line-height: 1500px;
+   letter-spacing: 40px;
+}
+.ital{
+    font-size: 600px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+.ltop{
+    display: flex;
+    margin-top: -1400px;
+    margin-left: 130px;
+}
+.lbot{
+    display: flex;
+    margin-top: -400px;
+    margin-left: 180px;
+}
+.rtop{
+    display: flex;
+    margin-top: -1200px;
+    margin-left: 750px;
+}
+.rbot{
+    display: flex;
+    margin-top: -300px;
+    margin-left: 700px;
+}
+.unic{
+    display: flex;
+    margin-top: -1300px;
+    margin-left: 1170px;
+}
+.info{
+    display: flex;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+.heading{
+    margin: 450px 0px 50px 20px;
+}
+.ligatures{
+    margin-bottom: 30px;
+    width: 1420px;
+}
+.circle1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    transform: scale(1);
+    transition: all 1s ease;
+    margin-top: -400px;
+    margin-left: 150px;
+}
+.circle1:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+.circle2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    transform: scale(1);
+    transition: all 1s ease;
+    margin-top: -330px;
+    margin-left: 630px;
+}
+.circle2:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+.circle3{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3.5px solid black;
+    transform: scale(1);
+    transition: all 1s ease;
+    margin-top: 80px;
+    margin-left: 1100px;
+}
+.circle3:hover{
+    transform: scale(1.5);
+    transition: all 1s ease;
+}
+#rhode{
+    margin-top: 300px;
+}
+.numbers{
+    font-size: 730px;
+    font-style: italic;
+    line-height: 600px;
+}
+.firnum{
+    display: flex;
+    margin-top: -30px;
+}
+#text{
+    display: flex;
+    margin-left: 20px;
+    gap: 400px;
+} 
+.nini{
+    margin-top: 30px;
+    width: 500px;
+}
+.mimi{
+    margin-top: 30px;
+    width: 500px;
+}
+.secnum{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.pre{
+    width: 1440px;
+    margin: 30px 0px 30px 0px;
+}
+.lastp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+button{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 46px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-top: 150px;
+    width: 400px;
+    height: 100px;
+    line-height: 90px;
+    transform: scale(1);
+    transition: all 0.7s ease;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: all 0.7s ease;
+}
